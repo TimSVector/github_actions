@@ -28,8 +28,8 @@ on:
   push:
     branches: [ "master" ]
   pull_request:
-    branches: [ "master" ]
-    
+    types: [opened, synchronize, reopened]
+   
 env:
   # Relative path from checkout to the VectorCAST Project
   VC_Manage_Project="Project"

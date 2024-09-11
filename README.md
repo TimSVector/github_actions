@@ -2,6 +2,9 @@
 
 Integration between VectorCAST and GitHub Action
 
+# Installation
+
+This repository uses a git submodule so make sure when you clone this repository, clone with _--recurse-submodules_ option
        
 # Summary
 
