@@ -28,7 +28,6 @@ jobs:
         with:
           submodules: true
 
-      # Runs a single command using the runners shell
+      # GitHub Action for VectorCAST
       - name: GitHub Action for VectorCAST
-        run: 
-          workflows: ["GitHub Action for VectorCAST"]
+        run: "GitHub Action for VectorCAST"
